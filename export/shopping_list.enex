@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-export SYSTEM "http://xml.evernote.com/pub/evernote-export2.dtd">
+<en-export export-date="20241017T000000Z" application="Evernote" version="10.0">
+<note>
+<title>Shopping List</title>
+<content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<h2>Dishes</h2>
+<div><en-todo/> sushi</div>
+<div><en-todo/> caesar salad</div>
+<div><en-todo/> spaghetti carbonara</div>
+<div><en-todo/> beef tacos</div>
+<br/>
+<h2>Pantry</h2>
+<div><en-todo/> sushi rice (x1)</div>
+<div><en-todo/> nori (x1)</div>
+<div><en-todo/> soy sauce (x1)</div>
+<div><en-todo/> rice vinegar (x1)</div>
+<div><en-todo/> sugar (x1)</div>
+<div><en-todo/> croutons (x1)</div>
+<div><en-todo/> spaghetti (x1)</div>
+<div><en-todo/> tortillas (x1)</div>
+<br/>
+<h2>Refrigerated</h2>
+<div><en-todo/> salmon (x1)</div>
+<div><en-todo/> parmesan cheese (x2)</div>
+<div><en-todo/> caesar dressing (x1)</div>
+<div><en-todo/> chicken breast (optional) (x1)</div>
+<div><en-todo/> eggs (x1)</div>
+<div><en-todo/> pancetta (x1)</div>
+<div><en-todo/> ground beef (x1)</div>
+<div><en-todo/> cheddar cheese (x1)</div>
+<div><en-todo/> sour cream (x1)</div>
+<div><en-todo/> salsa (x1)</div>
+<br/>
+<h2>Fruit</h2>
+<div><en-todo/> avocado (x1)</div>
+<br/>
+<h2>Vegetable</h2>
+<div><en-todo/> cucumber (x1)</div>
+<div><en-todo/> romaine lettuce (x1)</div>
+<div><en-todo/> lettuce (x1)</div>
+<div><en-todo/> tomatoes (x1)</div>
+<br/>
+<h2>Spice/herb</h2>
+<div><en-todo/> wasabi (x1)</div>
+<div><en-todo/> sesame seeds (x1)</div>
+<div><en-todo/> salt (x3)</div>
+<div><en-todo/> pepper (x1)</div>
+<div><en-todo/> black pepper (x1)</div>
+<div><en-todo/> taco seasoning (x1)</div>
+<br/>
+<h2>Condiment</h2>
+<div><en-todo/> pickled ginger (x1)</div>
+<br/>
+</en-note>
+]]></content>
+</note>
+</en-export>

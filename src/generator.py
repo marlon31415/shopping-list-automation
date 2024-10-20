@@ -144,3 +144,6 @@ if __name__ == "__main__":
     )
 
     print(sl)
+
+    export_to_markdown(sl)
+    export_to_enex(sl)
