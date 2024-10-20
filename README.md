@@ -1,1 +1,1 @@
-# shopping_list_automation
+# Shopping List Automation

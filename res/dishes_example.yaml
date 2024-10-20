@@ -1,0 +1,112 @@
+dishes:
+  spaghetti carbonara:
+    category: italian
+    level: intermediate
+    ingredients:
+      - name: spaghetti
+        class: pantry
+      - name: eggs
+        class: refrigerated
+      - name: pancetta
+        class: refrigerated
+      - name: parmesan cheese
+        class: refrigerated
+      - name: black pepper
+        class: spice/herb
+      - name: salt
+        class: spice/herb
+
+  chicken curry:
+    category: indian
+    level: intermediate
+    ingredients:
+      - name: chicken
+        class: refrigerated
+      - name: curry powder
+        class: spice/herb
+      - name: coconut milk
+        class: pantry
+      - name: onions
+        class: vegetable
+      - name: garlic
+        class: vegetable
+      - name: ginger
+        class: vegetable
+      - name: tomatoes
+        class: vegetable
+      - name: cilantro
+        class: spice/herb
+      - name: salt
+        class: spice/herb
+      - name: pepper
+        class: spice/herb
+
+  caesar salad:
+    category: salad
+    level: easy
+    ingredients:
+      - name: romaine lettuce
+        class: vegetable
+      - name: croutons
+        class: pantry
+      - name: parmesan cheese
+        class: refrigerated
+      - name: caesar dressing
+        class: refrigerated
+      - name: chicken breast (optional)
+        class: refrigerated
+      - name: salt
+        class: spice/herb
+      - name: pepper
+        class: spice/herb
+
+  beef tacos:
+    category: mexican
+    level: easy
+    ingredients:
+      - name: ground beef
+        class: refrigerated
+      - name: taco seasoning
+        class: spice/herb
+      - name: tortillas
+        class: pantry
+      - name: lettuce
+        class: vegetable
+      - name: tomatoes
+        class: vegetable
+      - name: cheddar cheese
+        class: refrigerated
+      - name: sour cream
+        class: refrigerated
+      - name: salsa
+        class: refrigerated
+
+  sushi:
+    category: japanese
+    level: advanced
+    ingredients:
+      - name: sushi rice
+        class: pantry
+      - name: nori
+        class: pantry
+      - name: salmon
+        class: refrigerated
+      - name: avocado
+        class: fruit
+      - name: cucumber
+        class: vegetable
+      - name: soy sauce
+        class: pantry
+      - name: wasabi
+        class: spice/herb
+      - name: pickled ginger
+        class: condiment
+      - name: sesame seeds
+        class: spice/herb
+      - name: rice vinegar
+        class: pantry
+      - name: sugar
+        class: pantry
+      - name: salt
+        class: spice/herb
+
