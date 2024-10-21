@@ -45,6 +45,9 @@ class ShoppingList:
         num_advanced: Optional[int] = None,
         desired_dishes: Optional[List[str]] = None,
     ):
+        """
+        Choose dishes based on the number of dishes requested, the number of dishes of each level, and desired dishes.
+        """
         chosen_dishes = []
         if desired_dishes:
             chosen_dishes.extend(
@@ -53,20 +56,33 @@ class ShoppingList:
         if num_easy:
             chosen_dishes.extend(
                 random.sample(
-                    [dish for dish in self.dishes if dish.level == "easy"], num_easy
+                    [
+                        dish
+                        for dish in self.dishes
+                        if dish not in chosen_dishes and dish.level == "easy"
+                    ],
+                    num_easy,
                 )
             )
         if num_intermediate:
             chosen_dishes.extend(
                 random.sample(
-                    [dish for dish in self.dishes if dish.level == "intermediate"],
+                    [
+                        dish
+                        for dish in self.dishes
+                        if dish not in chosen_dishes and dish.level == "intermediate"
+                    ],
                     num_intermediate,
                 )
             )
         if num_advanced:
             chosen_dishes.extend(
                 random.sample(
-                    [dish for dish in self.dishes if dish.level == "advanced"],
+                    [
+                        dish
+                        for dish in self.dishes
+                        if dish not in chosen_dishes and dish.level == "advanced"
+                    ],
                     num_advanced,
                 )
             )
@@ -84,6 +100,10 @@ class ShoppingList:
         return chosen_dishes
 
     def generate_shopping_list(self, chosen_dishes: List[Dish]):
+        """
+        Create a structured shopping list from a list of chosen dishes.
+        The shopping list is structured by categories of ingredients.
+        """
         shopping_list = {"dishes": []}
         for dish in chosen_dishes:
             shopping_list["dishes"].append(dish.name)

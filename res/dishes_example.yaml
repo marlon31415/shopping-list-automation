@@ -1,6 +1,6 @@
 dishes:
   spaghetti carbonara:
-    category: italian
+    category: pasta
     level: intermediate
     ingredients:
       - name: spaghetti
@@ -17,7 +17,7 @@ dishes:
         class: spice/herb
 
   chicken curry:
-    category: indian
+    category: rice
     level: intermediate
     ingredients:
       - name: chicken
@@ -61,7 +61,7 @@ dishes:
         class: spice/herb
 
   beef tacos:
-    category: mexican
+    category: beef
     level: easy
     ingredients:
       - name: ground beef
@@ -82,7 +82,7 @@ dishes:
         class: refrigerated
 
   sushi:
-    category: japanese
+    category: rice
     level: advanced
     ingredients:
       - name: sushi rice
