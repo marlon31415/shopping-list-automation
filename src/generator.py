@@ -99,7 +99,7 @@ class ShoppingList:
             )
         return chosen_dishes
 
-    def generate_shopping_list(self, chosen_dishes: List[Dish]):
+    def create_shopping_list_by_category(self, chosen_dishes: List[Dish]):
         """
         Create a structured shopping list from a list of chosen dishes.
         The shopping list is structured by categories of ingredients.
@@ -120,7 +120,7 @@ class ShoppingList:
                     shopping_list[ingredient_class][ingredient_name] = 1
         return shopping_list
 
-    def generate_list(
+    def generate_shopping_list(
         self,
         num_dishes: int,
         num_easy: Optional[int] = None,
@@ -153,13 +153,13 @@ class ShoppingList:
             num_dishes, num_easy, num_intermediate, num_advanced, desired_dishes
         )
         # ! create shopping list with sections
-        shopping_list = self.generate_shopping_list(chosen_dishes)
+        shopping_list = self.create_shopping_list_by_category(chosen_dishes)
         return shopping_list
 
 
 if __name__ == "__main__":
     shopping_list = ShoppingList("./res/dishes_example.yaml")
-    sl = shopping_list.generate_list(
+    sl = shopping_list.generate_shopping_list(
         num_dishes=4, num_easy=1, num_intermediate=1, num_advanced=0
     )
 
